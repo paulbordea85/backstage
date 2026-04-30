@@ -3,6 +3,8 @@ kind: API
 metadata:
   name: hello-world
   description: Hello World example for gRPC
+  annotations:
+    backstage.io/techdocs-ref: value
 spec:
   type: grpc
   lifecycle: deprecated
