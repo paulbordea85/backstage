@@ -4,7 +4,8 @@ metadata:
   name: hello-world
   description: Hello World example for gRPC
   annotations:
-    backstage.io/techdocs-ref: value
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: 'paulbordea85/backstage'
 spec:
   type: grpc
   lifecycle: deprecated
